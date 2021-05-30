@@ -1,7 +1,7 @@
 /*******
 CorrectSentence(CORSENT) problems in CodeChef Starter Div 3.
 All tests got AC.
-******/
+*******/
 
 #define sai "NO"
 #define dung "YES"
@@ -55,4 +55,4 @@ int main(){
     }
     return 0;
 }
-// Pretty Easy but Fun to Solve.
+.
