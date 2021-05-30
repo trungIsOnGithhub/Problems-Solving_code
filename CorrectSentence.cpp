@@ -1,3 +1,8 @@
+/*******
+CorrectSentence(CORSENT) problems in CodeChef Starter Div 3.
+All tests got AC.
+******/
+
 #define sai "NO"
 #define dung "YES"
 #define  L length()
