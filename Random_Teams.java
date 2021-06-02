@@ -1,5 +1,8 @@
 import java.util.*;
 
+//26/26 tests AC.
+// Math(Combinatoric) + Greedy Approach.
+
 public class Main{
     static void solve(){   
         //getting input and get answer
@@ -11,7 +14,7 @@ public class Main{
         m = sc.nextInt();
         sc.close();
         
-        // the two-combinator of n can be reduced to (n/2)*(n-1)
+        // the two-combination of n can be reduced to (n*(n-1))/2
         if (m==1){
             kmax = (n*(n-1))/2;
             kmin = kmax;
