@@ -1,5 +1,5 @@
 /*****
-Pairwise union set(UNIONSET) CodeChef Practice Problems
+Pairwise union set(UNIONSET) CodeChef Practice Problem.
 *****/
 
 #define B bool  //using bool to avoid MLE
