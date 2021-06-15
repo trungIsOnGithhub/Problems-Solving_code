@@ -1,6 +1,5 @@
+
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 // Codeforces problem 610A-Pasha and Stick, 76/76 tests AC.
 // Combinatorics(Repetition combination) approach
