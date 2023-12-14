@@ -6,20 +6,21 @@
 #
 default: &default
   adapter: sqlite3
+  encoding: unicode
+  port: 5432
+  username: postgres
+  password: 1234
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
 development:
   <<: *default
-  database: storage/development.sqlite3
+  database: railsappdev # Set your development database name here
 
-# Warning: The database defined as "test" will be erased and
-# re-generated from your development database when you run "rake".
-# Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: storage/test.sqlite3
+  database: railsapptest # Set your test database name here, not same with dev or prod
 
 production:
   <<: *default
-  database: storage/production.sqlite3
+  database: railsapp # Set your production database name here
